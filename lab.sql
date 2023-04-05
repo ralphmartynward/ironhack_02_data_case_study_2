@@ -18,8 +18,7 @@ SELECT DISTINCT language_id FROM film AS language;
 SELECT COUNT(store_id) FROM store;
 
 -- Find out how many employees staff does the company have?
-SELECT COUNT(employee_id) FROM employee;
+SELECT COUNT(staff_id) FROM staff;
 
 -- Return a list of employee first names only? 
-SELECT first_name FROM employee;
-
+SELECT first_name FROM staff;

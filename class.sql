@@ -1,7 +1,15 @@
 -- This is a one-linner comment
 USE bank;
 
-USE sakila;
+SELECT DISTINCT(type) FROM card;
+
+SELECT A2 as district_name FROM district; 
+
+SELECT A2 as district_name, A3 as region FROM district
+ORDER BY district_name
+LIMIT 30;
+
+-- USE sakila;
 
 /*
 This is a multi-line
